@@ -1,5 +1,5 @@
 /*
- * 抽象工厂方法
+ * 抽象工厂方法2024
  */
 
 public class AbstractFactory {
