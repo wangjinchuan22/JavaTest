@@ -1,5 +1,5 @@
 /*
- *工厂方法
+ *工厂方法模式
  */
 
 public class FactoryMethod {
