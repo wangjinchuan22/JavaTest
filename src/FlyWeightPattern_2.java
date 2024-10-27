@@ -5,7 +5,7 @@ public class FlyWeightPattern_2 {
         ShapeFactory factory = new ShapeFactory();
         Random random = new Random();
         String[] colors = {"red","blue","green","white","black"};
-        for (int i = 1; i <= 10; i++){
+        for (int i = 1; i <= 100; i++){
             int x = random.nextInt(colors.length); // {0 - 4}
             Shape shape = factory.getShape(colors[x]);
             System.out.println("第"+i+"个圆");
