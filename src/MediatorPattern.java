@@ -1,7 +1,3 @@
-import javax.print.attribute.standard.Media;
-import java.util.ArrayList;
-import java.util.List;
-
 public class MediatorPattern {
     public static void main(String[] args){
         ConcreteMediator mediator = new ConcreteMediator();
